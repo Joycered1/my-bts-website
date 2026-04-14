@@ -1,0 +1,238 @@
+.page {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+/* ── Nav ── */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.backLink {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: var(--accent);
+}
+
+.biasBadge {
+  font-size: 0.7rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: rgba(201, 168, 76, 0.12);
+  padding: 0.3rem 0.8rem;
+  border-radius: 2px;
+  border: 1px solid rgba(201, 168, 76, 0.3);
+}
+
+/* ── Header ── */
+.header {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  min-height: 520px;
+}
+
+.photoWrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo {
+  object-fit: cover;
+  object-position: top center;
+}
+
+.headerInfo {
+  padding: 3rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--bg-card);
+}
+
+.hangul {
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+.stageName {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.02em;
+}
+
+.fullName {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  letter-spacing: 0.04em;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.statRow {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.statRow dt {
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  padding-top: 0.1rem;
+}
+
+.statRow dd {
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* ── Body ── */
+.body {
+  padding: 4rem 3rem;
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sectionTitle {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--text-muted);
+}
+
+/* ── Table ── */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th {
+  text-align: left;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--border);
+  font-weight: 600;
+}
+
+.table th:first-child {
+  padding-left: 0;
+}
+
+.table td {
+  padding: 0.85rem 1rem;
+  color: var(--text);
+  border-bottom: 1px solid rgba(46, 26, 74, 0.5);
+}
+
+.table td:first-child {
+  padding-left: 0;
+  font-weight: 500;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.typeTag {
+  display: inline-block;
+  font-size: 0.68rem;
+  background: rgba(201, 168, 76, 0.1);
+  color: var(--accent);
+  border: 1px solid rgba(201, 168, 76, 0.25);
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+/* ── Highlights list ── */
+.highlightList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.highlightList li {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  padding-left: 1.25rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.highlightList li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .nav {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .photoWrap {
+    height: 420px;
+  }
+
+  .headerInfo {
+    padding: 2rem 1.5rem;
+  }
+
+  .body {
+    padding: 2.5rem 1.5rem;
+  }
+}
