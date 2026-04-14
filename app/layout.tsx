@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://my-bts.netlify.app/"
   ),
   title: {
     default: "My BTS Website",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "My BTS Website",
     description: "Joyce's BTS website, dedicated to her ult bias V (Kim Taehyung).",
-    images: ["/share-image.webp"],
+    images: ["/share-image.jpeg"],
   },
 };
 
