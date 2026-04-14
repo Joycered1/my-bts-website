@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BTS Universe — V & the 7",
-  description: "A fan site celebrating BTS, with V as our main bias.",
+  title: "My BTS Website",
+  description: " Joyce' BTS website, with ult bias V.",
 };
 
 export default function RootLayout({
