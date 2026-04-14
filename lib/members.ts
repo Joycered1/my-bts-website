@@ -28,7 +28,7 @@ export const members: Member[] = [
     stageName: "V",
     born: "December 30, 1995",
     age: 30,
-    positions: ["Sub-Vocalist", "Visual", "Dancer"],
+    positions: ["Vocalist", "Visual", "Main Dancer"],
     nicknames: ["Taetae", "CGV", "Blank Tae", "Baby Bear", "Wooga"],
     bio:
       "Kim Taehyung, known by his stage name V, is celebrated for his deep baritone voice and soulful artistry. Born in Daegu, South Korea, he trained for four years before debuting with BTS in 2013. Known for his boxy smile and multifaceted personality, V has established himself as one of the most recognisable faces in the world, regularly topping global polls for the most handsome man. His debut solo album 'Layover' showcased his unique colour as an artist — warm, vintage, and emotionally raw.",
@@ -40,11 +40,12 @@ export const members: Member[] = [
       { title: "FRI(END)S", year: 2024, type: "Single" },
     ],
     group_highlights: [
-      "BTS Visual and Sub-Vocalist since debut in 2013",
+      "BTS Visual and Vocalist since debut in 2013",
       "First Korean solo artist to top Spotify Global Chart",
       "Layover debuted at #1 on Billboard World Albums",
       "Named one of TIME Magazine's 100 Most Influential People (2022)",
       "Known for iconic performances: Black Swan, Singularity, Fake Love",
+      "Known as The Idol of Idols for his exceptional stage performances"
     ],
     isBias: true,
   },
@@ -82,7 +83,7 @@ export const members: Member[] = [
     stageName: "Jin",
     born: "December 4, 1992",
     age: 33,
-    positions: ["Sub-Vocalist", "Visual"],
+    positions: ["Vocalist", "Visual"],
     nicknames: ["Worldwide Handsome", "Jinnie", "Pink Princess", "Car Door Guy"],
     bio:
       "Kim Seokjin, known simply as Jin, is BTS's eldest member and one of the most beloved personalities in K-pop. Famous for his self-proclaimed title 'Worldwide Handsome', his dad jokes (Aww man!), and his incredible vocal clarity, Jin's presence in BTS is irreplaceable. He enrolled in acting school before becoming a K-pop idol and brings warmth and humour to the group. He completed mandatory military service and returned in 2025.",
@@ -134,7 +135,7 @@ export const members: Member[] = [
     stageName: "j-hope",
     born: "February 18, 1994",
     age: 32,
-    positions: ["Main Dancer", "Lead Rapper", "Sub-Vocalist"],
+    positions: ["Lead Dancer", "Lead Rapper"],
     nicknames: ["Hobi", "Your Hope", "Sunshine", "Hope on the Street"],
     bio:
       "Jung Hoseok, known as j-hope, is BTS's main dancer and sunshine. Before joining Big Hit Entertainment, he was a street dancer with a crew called Neuron. He brings an infectious energy and technical precision to every performance. As the first BTS member to headline a solo stage at a major Western festival (Lollapalooza 2022), j-hope marked a milestone for K-pop globally. His music oscillates between bold hip-hop and introspective pop.",
