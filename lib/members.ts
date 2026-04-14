@@ -37,7 +37,10 @@ export const members: Member[] = [
       { title: "Christmas Tree", year: 2021, type: "Single" },
       { title: "Sweet Night", year: 2020, type: "Single" },
       { title: "Layover", year: 2023, type: "Mini Album" },
+      { title: "Wherever u are ft UMI", year: 2023, type: "Single" },
       { title: "FRI(END)S", year: 2024, type: "Single" },
+      { title: "Winter Ahead ft Park Hyo Shin", year: 2024, type: "Single" },
+      { title: "White Christmas ft Bing Crosby", year: 2024, type: "Single" },
     ],
     group_highlights: [
       "BTS Visual and Vocalist since debut in 2013",
