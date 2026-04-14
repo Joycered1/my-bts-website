@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "My BTS Website",
     images: [
       {
-        url: "/share-image.webp",
+        url: "/share-image.jpeg",
         width: 1200,
         height: 630,
         alt: "My BTS Website",
